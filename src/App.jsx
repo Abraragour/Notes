@@ -6,7 +6,7 @@ import Notfound from './Components/Notfound/Notfound'
 import Home from './Components/Home/Home';
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute'
 import UsercontextProvider from './Context/userContext'
-import Auth from './Components/auth/auth'
+import Auth from './Components/Auth/Auth';
 import NoteContextProvider from './Context/noteContext'
 import { Toaster } from 'react-hot-toast'
 
