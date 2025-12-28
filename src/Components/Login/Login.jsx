@@ -36,7 +36,7 @@ export default function Login() {
             localStorage.setItem('userToken',response?.data?.token);
             toast.success(response?.data?.msg,{ duration:1000,
             position:"top-center"});
-          navigate('home');
+          navigate('/home');
         }
          setIsLoading(false)
         console.log(response);
