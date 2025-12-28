@@ -17,7 +17,9 @@ function App() {
       path: '/', 
       element: <Layout />, 
       children: [
-        { index: true, element: <ProtectedRoute><Home /></ProtectedRoute> },
+        { index: true, element: <Auth /> }, 
+        
+        { path: 'home', element: <ProtectedRoute><Home /></ProtectedRoute> },
         
         { path: 'login', element: <Auth /> },
         { path: 'signUp', element: <Auth/> },
