@@ -35,8 +35,8 @@ export default function Login() {
             setuserLogin(response?.data?.token);
             localStorage.setItem('userToken',response?.data?.token);
             toast.success(response?.data?.msg,{ duration:1000,
-        position:"top-center"});
-          navigate('/');
+            position:"top-center"});
+          navigate('home');
         }
          setIsLoading(false)
         console.log(response);
